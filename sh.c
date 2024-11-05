@@ -8,7 +8,7 @@
 #include <sys/stat.h>
 #include <sys/wait.h>
 
-/* MARK NAME Alison de Oliveira Souza */
+/* MARK NAME Henrique César Alves de Souza e Mateus Henrique Souza Silva */
 
 /****************************************************************
  * Shell xv6 simplificado
