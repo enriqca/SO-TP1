@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eu
 
-# DCC605: Basic shell programming assignment
+# DCC605: Basic Shell Programming Assignment
 # Autograding script
 
 srcfn="sh.c"
@@ -38,5 +38,3 @@ if ! tests/test8.sh $srcfn ; then ecnt=$(( $ecnt + 1 )) ; fi
 echo "your code passes $(( $total - $ecnt )) of $total tests"
 echo "check the output of the getmarks.py script on your code"
 exit 0
-
-

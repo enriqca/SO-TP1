@@ -8,7 +8,7 @@
 #include <sys/stat.h>
 #include <sys/wait.h>
 
-/* MARK NAME Henrique Cesar */
+/* MARK NAME Henrique César Alves de Souza */
 /* MARK NAME Mateus Henrique Souza Silva */
 
 /****************************************************************
