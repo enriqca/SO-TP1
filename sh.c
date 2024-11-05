@@ -58,7 +58,6 @@ struct cmd *parsecmd(char *); // Processar o linha de comando.
 /* Executar comando cmd.  Nunca retorna. */
 void runcmd(struct cmd *cmd)
 {
-  int p[2], r;
   struct execcmd *ecmd;
   struct pipecmd *pcmd;
   struct redircmd *rcmd;
@@ -402,5 +401,3 @@ parseexec(char **ps, char *es)
   cmd->argv[argc] = 0;
   return ret;
 }
-
-// vim: expandtab:ts=2:sw=2:sts=2
